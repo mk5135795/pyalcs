@@ -1,0 +1,38 @@
+[
+{"graph": "stacked",
+"data_id": "mix", 
+"data_key": "r", 
+"save": true,
+"intrv_num": 20, 
+"title": "maze reward 20 [lin]"},
+
+{"graph": "linerange",
+"data_id": "mix", 
+"data_key": "r", 
+"window": 1,
+"intrv_num": 20, 
+"title": "maze reward 20 [min max]"},
+
+{"graph": "stacked",
+"data_id": "mix",
+"data_key": "r", 
+"window": 1,
+"intrv_func": "log",
+"intrv_num": 10, 
+"title": "maze reward 20 [log]"},
+
+{"graph": "stacked",
+"data_id": "mix", 
+"data_key": "rel", 
+"save": true,
+"intrv_num": 2, 
+"title": "maze rel 2 [bin]"},
+
+{"graph": "stacked",
+"data_id": "mix",
+"data_key": "r", 
+"window": 2,
+"intrv_func": "log",
+"intrv_num": 100, 
+"title": "maze reward 20 [log]"}
+]
